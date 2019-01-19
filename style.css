@@ -1,0 +1,203 @@
+body, html{
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://www.go-poland.cn/sites/default/files/Wroc%C5%82aw-University-of-Economics---Centre-for-Continuing-Education.jpg)
+        center 90%  no-repeat fixed;
+    background-size: cover;
+    font-size: 1.2em;
+}
+
+header{
+    background-color: rgb(193,32,50,0.6);
+    width: 80%;
+    border-radius: 20px;
+    margin: 2em auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form{
+    background-color: rgb(250,176,1,0.6);
+    width: 80%;
+    border-radius: 20px;
+    margin: 2em auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-tab{
+    margin: 10px;
+}
+
+.labels{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+}
+
+.input-tab{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    
+}
+
+.input-border {
+    padding: 5px;
+    border: 1px solid rgb(193,32,50,0.6);
+}
+
+.top-align{
+    vertical-align: top;
+}
+
+#submit{
+    margin: 10px auto 0 auto;
+    display: block;
+    width:18em;
+    height:3em;
+    border:none;
+    color:#fff;
+    background-color:rgb(20,133,204,0.9);
+    font-weight:700
+}
+#submit:hover{
+    background-color:rgb(20,133,204,1);
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    table-layout: fixed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th{
+    background: rgb(193,32,50,0.6);
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(193,32,50,0.6);
+    position: relative;
+}
+
+.hour{
+    background: rgb(193,32,50,0.6);
+    padding: 0.65em;
+    overflow: hidden;
+}
+
+.footballStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.footballStyle:after{
+    content: "Sala 2, Przemysław Przyłuski";
+}
+
+.basketballStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.basketballStyle:after{
+    content: "Sala 7, Magdalena Wojtczak";
+}
+
+.volleyballStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.volleyballStyle:after{
+    content: "Sala 6, Bożena Wolna";
+}
+
+.gymStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.gymStyle:after{
+    content: "Sala 3, Przemysław Przyłuski";
+}
+
+.fitnessStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.fitnessStyle:after{
+    content: "Sala 4, Leszek Szczurek";
+}
+
+.crossfitStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.crossfitStyle:after{
+    content: "Sala 3, Leszek Szczurek";
+}
+
+.tennisStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.tennisStyle:after{
+    content: "Sala 5, Przemysław Ludtke";
+}
+
+.tableTennisStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.tableTennisStyle:after{
+    content: "Sala 5, Jerzy Lichosik";
+}
+
+.swimmingStyle{
+    background: rgb(20,133,204,0.6);
+    cursor: pointer;
+}
+
+.swimmingStyle:after{
+    content: "Sala 1, Tomasz Dąbrowski";
+}
+
+
+
